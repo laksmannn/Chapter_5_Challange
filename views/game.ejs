@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors</title>
+    <link rel="icon" href="../public/assets/images/logo 1.png" />
+
+    <link rel="stylesheet" href="../public/css/game.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/f68f52655e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <head>
+      <div class="title-container">
+        <div class="back">
+          <a href="index.html"
+            ><img src="../public/assets/images/back arrow.png" id="back-arrow" alt=""
+          /></a>
+        </div>
+        <div class="brand">
+          <img src="../public/assets/images/logo 1.png" alt="" />
+        </div>
+        <div class="top-title">
+          <h1>ROCK PAPER SCISSORS</h1>
+        </div>
+      </div>
+    </head>
+
+    <section>
+      <!-- AWAL PILIHAN USER -->
+      <div class="main-container-1">
+        <div class="main-player">
+          <h1 class="title">PLAYER 1</h1>
+          <div class="rps animation">
+            <button id="rock"><img src="../public/assets/images/rock.png" alt="" /></button>
+            <button id="paper">
+              <img src="../public/assets/images/paper.png" alt="" />
+            </button>
+            <button id="scissors">
+              <img src="../public/assets/images/scissors.png" alt="" />
+            </button>
+          </div>
+        </div>
+      <!-- AKHIR PILIHAN USER -->
+
+      <!-- VERSUS DAN REFRESH -->
+      <div class="center-nav">
+        <div id="box">
+          <h1 id="h1">VS</h1>
+        </div>
+        <div class="refresh">
+          <button type="button" onClick="window.location.reload()">
+            <img src="../public/assets/images/refresh.png" alt="" />
+          </button>
+        </div>
+      </div>
+      <!-- AKHIR VERSUS DAN REFRESH -->
+
+      <!-- AWAL PILIHAN COMP -->
+      <div class="main-player">
+        <h1 class="title">COM</h1>
+        <div class="rps">
+          <button id="comp-rock">
+            <img src="../public/assets/images/rock.png" alt="" />
+          </button>
+          <button id="comp-paper">
+            <img src="../public/assets/images/paper.png" alt="" />
+          </button>
+          <button id="comp-scissors">
+            <img src="../public/assets/images/scissors.png" alt="" />
+          </button>
+        </div>
+      </div>
+      <!-- AKHIR PILIHAN COMP -->
+    </section>
+    <script src="../public/js/game.js"></script>
+  </body>
+</html>

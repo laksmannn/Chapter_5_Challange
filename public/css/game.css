@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Poppins:400,500,700,800");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #9c8360;
+}
+
+.title-container {
+  display: flex;
+  margin: 30px 55px;
+  align-items: center;
+}
+
+.back img {
+  width: 20px;
+  margin-right: 25px;
+}
+
+.brand img {
+  margin-right: 25px;
+}
+
+.top-title h1 {
+  font-size: 21px;
+  color: #f9b23d;
+  font-family: "Open Sans";
+}
+
+.main-container-1 {
+  margin-top: 70px;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  padding: 1px 25px;
+}
+
+.main-player h1 {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Open Sans";
+  /* margin-bottom: 30px; */
+  letter-spacing: 3px;
+}
+
+.rps img {
+  align-self: center;
+  margin-top: 50px;
+  background-color: transparent;
+}
+
+.center-nav h1 {
+  font-size: 50px;
+  color: #bd0000;
+  margin-top: 50px;
+  font-family: "Open Sans";
+  text-align: center;
+  padding: 0 60px;
+}
+
+.main-comp {
+  margin-top: 90px;
+  padding: 0 50px;
+  width: auto;
+}
+
+.title-comp {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Open Sans";
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+.refresh img {
+  margin-top: 30px;
+  width: 90px;
+}
+
+.rps img {
+  width: 110px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.animation :hover {
+  transform: rotate(20deg);
+  animation-name: buttonAnimate;
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+@keyframes buttonAnimate {
+  0% {
+    transform: rotate(20deg);
+  }
+
+  25% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  65% {
+    transform: rotate(-10deg);
+  }
+
+  85% {
+    transform: rotate(-20deg);
+  }
+
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (min-width: 720px) {
+  .main-container-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 310px;
+    text-align: center;
+    margin-right: 50px;
+  }
+  .main-player {
+    margin-top: -50px;
+    /* margin-left: 320px; */
+    align-items: center;
+  }
+
+  .main-comp {
+    width: 200px;
+    /* margin-right: 300px; */
+    align-items: center;
+  }
+
+  .title-comp {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin-bottom: 00px;
+    letter-spacing: 3px;
+  }
+
+  .rps {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+    padding: 0 25px;
+  }
+
+  .rps img {
+    align-self: center;
+    margin-top: 50px;
+    background-color: transparent;
+  }
+
+  .center-nav {
+    margin: 0px 70px;
+    background-color: transparent;
+  }
+
+  .center-nav h1 {
+    font-size: 144px;
+    color: #bd0000;
+    margin-top: 210px;
+    text-align: center;
+    font-family: "Open Sans";
+  }
+  .refresh img {
+    margin-top: 200px;
+    width: 80px;
+  }
+  .top-title h1 {
+    font-size: 36px;
+    color: #f9b23d;
+    font-family: "Open Sans";
+  }
+
+  .main-player h1 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin-bottom: 100px;
+    letter-spacing: 3px;
+  }
+  .drawbox {
+    width: 300px;
+    border-radius: 10px;
+    background: #4d9654;
+    border-radius: 10px;
+    margin-left: 0 !important;
+    transform: rotate(-28deg);
+  }
+  .drawbox2 {
+    width: 300px;
+    border-radius: 10px;
+    background: #035b0c;
+    border-radius: 10px;
+    transform: rotate(-28deg);
+    margin-left: 0 !important;
+  }
+  .chosen {
+    background-color: #c4c4c4;
+    border-radius: 30px;
+    width: 223px;
+    height: 204px;
+  }
+}
+
+.main-player button {
+  cursor: default;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.chosen {
+  background-color: #c4c4c4;
+  border-radius: 30px;
+}
+
+.drawbox {
+  width: 271px;
+  height: 166px;
+  border-radius: 10px;
+  background: #4d9654;
+  border-radius: 10px;
+  margin-left: 23%;
+  align-items: center;
+  align-content: center;
+}
+.drawbox2 {
+  width: 271px;
+  height: 166px;
+  border-radius: 10px;
+  background: #035b0c;
+  border-radius: 10px;
+  margin-left: 23%;
+  align-items: center;
+  align-content: center;
+}
+
+.onoff {
+  cursor: not-allowed;
+  pointer-events: none;
+}
